@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>College Student Portal</title>
+</head>
+
+<body>
+
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="login.html">Student Login</a>
+        <a href="timetable.html">Timetable</a>
+        <a href="results.html">Results</a>
+
+    </nav>
+
+    <h1>College Student Portal</h1>
+
+    <p>Welcome to the ABC college student portal.</p>
+
+    <h2>Student Services</h2>
+
+    <button>Student Login</button>
+
+    <button>View Timetable</button>
+
+    <button>View Results</button>
+
+    <button>Study Materials</button>
+
+    <h2>College Announcements</h2>
+
+    <p>Welcome to the new academic year.</p>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>College Student Portal</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ==============================
+         NAVIGATION BAR
+         ============================== -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            College Portal
+        </div>
+
+
+        <div class="nav-links">
+
+            <a href="#home">Home</a>
+
+            <a href="#services">Services</a>
+
+            <a href="#announcements">Announcements</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- ==============================
+         HOME SECTION
+         ============================== -->
+
+    <section id="home" class="hero">
+
+        <h1>
+            Welcome to College Student Portal
+        </h1>
+
+
+        <p>
+            A single place for students to access
+            college information and services.
+        </p>
+
+
+        <button onclick="loginMessage()">
+            Student Login
+        </button>
+
+    </section>
+
+
+
+    <!-- ==============================
+         SERVICES SECTION
+         ============================== -->
+
+    <section id="services" class="services">
+
+        <h2>
+            Student Services
+        </h2>
+
+
+        <div class="cards">
+
+
+            <!-- Timetable -->
+
+            <div class="card">
+
+                <div class="icon">
+                    📅
+                </div>
+
+                <h3>
+                    Timetable
+                </h3>
+
+                <p>
+                    View your daily and weekly
+                    class timetable.
+                </p>
+
+                <button onclick="showMessage('Timetable')">
+                    View Timetable
+                </button>
+
+            </div>
+
+
+
+            <!-- Study Materials -->
+
+            <div class="card">
+
+                <div class="icon">
+                    📚
+                </div>
+
+                <h3>
+                    Study Materials
+                </h3>
+
+                <p>
+                    Access notes and study
+                    materials.
+                </p>
+
+                <button onclick="showMessage('Study Materials')">
+                    View Notes
+                </button>
+
+            </div>
+
+
+
+            <!-- Results -->
+
+            <div class="card">
+
+                <div class="icon">
+                    📊
+                </div>
+
+                <h3>
+                    Results
+                </h3>
+
+                <p>
+                    Check your examination
+                    results.
+                </p>
+
+                <button onclick="showMessage('Results')">
+                    View Results
+                </button>
+
+            </div>
+
+
+
+            <!-- Announcements -->
+
+            <div class="card">
+
+                <div class="icon">
+                    📢
+                </div>
+
+                <h3>
+                    Announcements
+                </h3>
+
+                <p>
+                    See the latest college
+                    announcements.
+                </p>
+
+                <button onclick="showMessage('Announcements')">
+                    View Announcements
+                </button>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==============================
+         ANNOUNCEMENTS SECTION
+         ============================== -->
+
+    <section id="announcements" class="announcements">
+
+        <h2>
+            Latest Announcements
+        </h2>
+
+
+        <div class="announcement">
+
+            <h3>
+                🎓 New Academic Year
+            </h3>
+
+            <p>
+                Welcome students to the new
+                academic year.
+            </p>
+
+        </div>
+
+
+        <div class="announcement">
+
+            <h3>
+                📝 Semester Examination
+            </h3>
+
+            <p>
+                Examination schedule will
+                be updated soon.
+            </p>
+
+        </div>
+
+
+        <div class="announcement">
+
+            <h3>
+                📚 Study Materials
+            </h3>
+
+            <p>
+                New study materials will be
+                available soon.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==============================
+         CONTACT SECTION
+         ============================== -->
+
+    <section id="contact" class="contact">
+
+        <h2>
+            Contact College
+        </h2>
+
+        <p>
+            Email: ABCloss@123.com
+        </p>
+
+        <p>
+            Phone: +91 9989414255
+        </p>
+
+    </section>
+
+
+
+    <!-- ==============================
+         FOOTER
+         ============================== -->
+
+    <footer>
+
+        <p>
+            © 2026 College Student Portal
+        </p>
+
+        <p>
+            Student Support | College Office
+        </p>
+
+    </footer>
+
+
+
+    <!-- Connect JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
